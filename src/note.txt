@@ -1,0 +1,1 @@
+how to kill processes: ps -aux | grep <utorid/process_name> | kill -9 pid
