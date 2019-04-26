@@ -93,3 +93,5 @@ fire
 2    ./shkdd10.txt
 1    ./hioaj10.txt
 ```
+
+End the execution by closing stdin `ctrl-D` or an interrupt `ctrl-C`
