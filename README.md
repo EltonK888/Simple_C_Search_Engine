@@ -1,4 +1,4 @@
-# Simple_C_Search_Engine
+# Simple C Search Engine
 ***Note**: For best results, test this on the `testing/big` directory that already contains the required files*
 
 A simple search engine for a systems programming course written in C.
