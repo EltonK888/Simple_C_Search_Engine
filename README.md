@@ -21,7 +21,7 @@ The parent process forks for every subdirectory containing `.txt` files. Each ch
 ## To Build
 Simply call make on the working directory.
 ```bash
-make
+$  make
 ```
 To remove the executables and object files simply clean the directory using:
 ```bash
@@ -31,7 +31,7 @@ make clean
 ## To create index files
 This will create the `index` files and `filenames` needed to run the search engine in the current directory.
 ```bash
-./indexer
+$  ./indexer
 ```
 This also supports a `-d` option to create the `index` and `filenames` in a specific directory.
 ```bash
@@ -41,17 +41,17 @@ This also supports a `-d` option to create the `index` and `filenames` in a spec
 ## To Run
 After building, run the executable `query`. This will look for subdirectories containing `index` files and `filenames` in the current directory.
 ```bash
-./query
+$  ./query
 ```
 
 To run on a specific directory use the `-d` option (recommended to use this to try on the following directory).
 ```bash
-./query -d testing/big/
+$  ./query -d testing/big/
 ```
 
 ## An example on the word 'fire'
 ```bash
-./query -d testing/big/
+$  ./query -d testing/big/
 Enter a word:
 fire
 245    ./ws110.txt
