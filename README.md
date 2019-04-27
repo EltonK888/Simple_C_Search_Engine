@@ -25,7 +25,7 @@ $  make
 ```
 To remove the executables and object files simply clean the directory using:
 ```bash
-make clean
+$  make clean
 ```
 
 ## To create index files
@@ -35,7 +35,7 @@ $  ./indexer
 ```
 This also supports a `-d` option to create the `index` and `filenames` in a specific directory.
 ```bash
-./indexer -d testing/big/
+$  ./indexer -d testing/big/
 ```
 
 ## To Run
